@@ -1,0 +1,151 @@
+/* Body Starts Here */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* Headings Starts Here */
+h1,2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.big-header{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+.container-fluid{
+  padding: 3% 15% 10%;
+  padding-bottom: 5.4rem;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat'
+}
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+.image-title{
+  position: absolute;
+  /* z-index: 0;
+  top: 250px; */
+  width: 22%;
+  right: 25%;
+  transform: rotate(25deg);
+}
+#features{
+  background-color: white;
+  position: relative;
+  padding: 7% 15%;
+}
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .image-title{
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
+/* Second Section */
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.descp{
+  color: #8f8f8f;
+  width: 75%;
+}
+
+
+.icon{
+  color: #ef8172;
+  margin: 20px;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* press */
+#press{
+  background-color: #ef8172;
+  padding: 0 0 5% 0;
+}
+.test-img{
+  width: 15%;
+  margin: 20px;
+}
+#pricing{
+  padding: 50px;
+  margin: 50px;
+}
+.simple-txt{
+  padding-bottom: 50px;
+}
+
+/* Call To Action */
+#cta{
+  background-color: #ff4c68;
+  padding-bottom: 10%;
+}
+.footer-text{
+  font-size: 3rem;
+  padding: 5% 15% 0;
+  color: white;
+}
+#footer{
+  padding-top: 5%;
+}
+.fa-footer{
+  color: black;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+.fa-footer:hover{
+  color: blue;
+}
+p{
+  color: #8f8f8f;
+
+}
